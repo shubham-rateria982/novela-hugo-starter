@@ -25,12 +25,6 @@ sections:
   match: "**/_index.md"
   templates:
   - author
-- type: directory
-  path: config/_default
-  label: Config
-  create: all
-  match: "**/*"
-  new_doc_ext: yaml
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
